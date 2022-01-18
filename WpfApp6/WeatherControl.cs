@@ -35,7 +35,7 @@ namespace WpfApp6
                 nameof(Temperature),
                 typeof(int),
                 typeof(WeatherControl),
-                new FrameworkPropertyMetadata(
+                new FrameworkPropertyMetadata( 
                     0,
                     FrameworkPropertyMetadataOptions.AffectsMeasure |
                     FrameworkPropertyMetadataOptions.AffectsRender,
